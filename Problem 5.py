@@ -15,7 +15,7 @@ def smallestMultiple(start,end):
     n=1
     for i in l:
         temp = i
-        while temp<end:
+        while temp<=end:
             temp*=i
         n*=(temp/i)
     return n
